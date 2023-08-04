@@ -4,7 +4,7 @@ export const InputContainer = styled.div`
     border: 1px solid #fafafa;
     border-radius: 20px;
 
-    height: 22px;
+    height: 32px;
     width: 80%;
 
     margin: 20px 0;
@@ -16,6 +16,7 @@ export const InputContainer = styled.div`
         height: 22px;
         padding: 0 20px;
         color: #ffffff;
-        font-size: 8px;
+        font-size: 12px;
+        margin-top: 5px;
     }
 `

@@ -5,11 +5,11 @@ export const ItemContainer = styled.div`
     width: 80%;
 
     h3 {
-        font-size: 12px;
+        font-size: 32px;
         color: #fafafa;
     }
     p{
-        font-size: 6px;
+        font-size: 20px;
         color: #fafafa60;
     }
     a{
