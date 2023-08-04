@@ -16,7 +16,7 @@ const [repos, setRepos] = useState([]);
 
 
 const handleSearchRepo = async () => {
-  const {data} = await api.get(`repo/${currentRepo}`)
+  const {data} = await api.get(`repos/${currentRepo}`)
   if(data.id){
     setRepos(prev => [...prev, data])
     setCurrentRepo('')
